@@ -28,7 +28,7 @@ Left             10
 
 Up               11
 
-Also both grounds needed to be connected, but it wasn't necessary to weld them just use a crocodile connector/clip
+Also both grounds needed to be connected, but it wasn't necessary to weld them: just use a crocodile connector/clip
 
 There is an initial version of the program that show some information over serial connection, and then an optimized one that is much quieter, simpler, more efficient and cleaner.
 
