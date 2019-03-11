@@ -18,11 +18,18 @@ Luckily enough, the password was 0301, so it took:
 
 And I was even luckier: The device only asks for the PIN to log in, not to remove it. And you may even see what the PIN is! Really insecure...
 
-Four wires needed to be welded to these buttons on the trail camera (left column), and link them to the Arduino (right column):
+Four wires needed to be welded on specific corners on these buttons on the trail camera, and link with wires to the Arduino UNO:
+
 Ok                8
+
 Right             9
+
 Left             10
+
 Up               11
+
 Also both grounds needed to be connected, but it wasn't necessary to weld them just use a crocodile connector/clip
+
+There is an initial version of the program that show some information over serial connection, and then an optimized one that is much quieter, simpler, more efficient and cleaner.
 
 If you are in a similar situation, and happen to own any kind of Arduino with enough digital outputs, you may use this code and get lucky!
