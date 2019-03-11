@@ -5,6 +5,8 @@ I bought a trail camera, 90€ retail but 20€ for me because it was PIN locked
 
 So I used an Arduino UNO I had lying around, a bunch of cables and some coding to try and break the password automagically.
 
+![Alt text](blob/master/Media/weld2.jpg?raw=true "Title")
+
 The trail camera requested to enter PIN as soon it was powered. 4 digits long, each of them any of these 36 characters:
 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ
 36 ^ 4 = 1,679.616 possible combinations!
