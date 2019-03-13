@@ -10,19 +10,19 @@ So I used an Arduino UNO I had lying around, a bunch of cables and some coding t
 The trail camera requested to enter PIN as soon it was powered. 4 digits long, each of them any of these 36 characters:
 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ
 36 ^ 4 = 1,679.616 possible combinations!
-At over 3 seconds per try (because of the error message blocks for 3 seconds), it could take as long as 58 days 07:40:48!
+At over 3 seconds per try (because of the error message blocks for 3 seconds), it could take as long as 58d 7h 40m 48s!
 
-Four wires needed to be welded on specific corners on these buttons on the trail camera, and link with wires to the Arduino UNO:
+Four wires needed to be soldered on specific corners on these buttons on the trail camera, and link with wires to the Arduino UNO:
 
-Ok                8
+Ok -> 8
 
-Right             9
+Right -> 9
 
-Left             10
+Left -> 10
 
-Up               11
+Up -> 11
 
-Also both grounds needed to be connected, but it wasn't necessary to weld them: just use a crocodile connector/clip
+Also both grounds needed to be connected, but it wasn't necessary to solder them: just use a crocodile connector/clip.
 
 There is an initial version of the program that show some information over serial connection, and then an optimized one that is much quieter, simpler, more efficient and cleaner.
 
